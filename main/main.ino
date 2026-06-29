@@ -10,11 +10,10 @@ void setup() {
   srv.attach(SERVO_PIN);
   pinMode(ONBOARD_LED, OUTPUT);
   pinMode(POT_PIN, INPUT);
+  digitalWrite(ONBOARD_LED, 0);
 }
 
 void loop() {
-  digitalWrite(ONBOARD_LED, 0);
-
   int val = analogRead(POT_PIN);
 
   int time_delay = map(val, 0, 1000, 1000, 500);
