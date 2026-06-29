@@ -16,6 +16,9 @@ STM32F103C8T6 Development Board Blue Pill
 for now, i'll just use Arduino IDE since i don't wanna dive to deep on this particular chip for now. maybe later when i had more time to spare.
 
 ```
+# STM32CubeProg
+https://www.st.com/en/development-tools/stm32cubeprog.html
+
 # STLink Driver
 https://www.st.com/en/development-tools/stsw-link009.html
 
