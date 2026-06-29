@@ -17,7 +17,7 @@ void loop() {
 
   int val = analogRead(POT_PIN);
 
-  int time_delay = map(val, 0, 1023, 1000, 100);
+  int time_delay = map(val, 0, 1000, 1000, 500);
 
   srv.write(0);
   delay(time_delay);
